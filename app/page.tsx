@@ -303,7 +303,7 @@ export default function Home() {
                   <div className="flex items-center gap-4 shrink-0">
                     <TableIcon size={20} className="text-[#84B179]" /><h4 className="font-black text-xl tracking-tight">DATA EXPLORER</h4>
                   </div>
-                  <div className="relative w-full sm:w-80">
+                  <div className="relative w-full sm:w-76">
                     <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-300" size={18} />
                     <input type="text" placeholder="Filter dataset..." onChange={(e) => setSearchTerm(e.target.value)} className="w-full pl-12 pr-6 py-3 bg-white border border-slate-100 rounded-lg text-sm font-bold focus:border-[#84B179] outline-none transition-colors shadow-sm" />
                   </div>
